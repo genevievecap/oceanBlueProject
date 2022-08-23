@@ -1,0 +1,37 @@
+#nav {
+    position: absolute;
+    left: 90%;
+    padding-top: 20px;
+}
+
+#logo {
+    position: absolute;
+}
+
+#hero {
+    position: relative;
+    margin-left: -10px;
+    z-index: -1;
+    margin-top: 130px;
+}
+
+#mission {
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    border: solid black 4px;
+    background-color: white;
+    opacity: .8;
+    position: absolute;
+    top: 30%;
+}
+
+.header {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Rock Salt', sans-serif;
+}
+
+#mission h2 {
+    font-size: 40px;
+}
