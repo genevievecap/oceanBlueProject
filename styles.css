@@ -18,12 +18,19 @@
 #mission {
     width: 700px;
     height: 300px;
-    text-align: center;
     border: solid black 4px;
     background-color: white;
     opacity: .8;
     position: absolute;
     top: 30%;
+    left: 15%;
+}
+
+h2 {
+    font-family: 'Rock Salt', sans-serif; 
+}
+h4, h3 {
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .header {
@@ -32,6 +39,140 @@
     font-family: 'Rock Salt', sans-serif;
 }
 
+#impact {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Rock Salt', sans-serif;
+    margin-top: 100px;
+}
+
 #mission h2 {
     font-size: 40px;
+}
+
+.cleanup {
+    font-family: 'Roboto Slab', sans-serif;
+    padding-left: 120px;
+    padding-right: 30px;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+#bottle {
+    padding-left: 15px;
+    width: 60px;
+}
+
+
+#cap {
+    background-color: #57b1bf;
+    width: 18px;
+    height: 7px;
+    border-radius: 100px/200px;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+#neck {
+    border: solid black 1px;
+    height: 25px;
+    width: 16px;
+    position: absolute;
+    top: 32%;
+    left: 5%;
+}
+
+#body {
+    border: solid black 1px;
+    height: 127px;
+    width: 58px; 
+    position: absolute;
+    top: 41%;
+    border-radius: 650px/500px;
+}
+
+#label {
+    background-color: #57b1bf;
+    width: 60px;
+    height: 26px;
+    position: absolute;
+    top: 50%;
+}
+
+.clickable {
+    background-color: #FDC500;
+    color: #264976;
+    width: fit-content;
+    padding: 8px;
+}
+
+#shop {
+    background-color: #FDC500;
+    color: #264976;
+    width: fit-content;
+    padding: 8px;
+    float: right;
+    margin-right: 100px;
+    font-size: 35px;
+}
+
+#donate {
+    background-color: #FDC500;
+    color: #264976;
+    width: fit-content;
+    padding: 8px;
+    font-size: 40px;
+    position: absolute;
+    left: 45%;
+    top: 75%;
+}
+
+#num1 {
+    margin-left: 15px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header menu menu main main';
+  gap: 100px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.info {
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#calendar {
+    justify-content: center;
+    align-items: center;
+}
+
+.shirt1 { grid-area: shirt1; }
+.shirt2 { grid-area: shirt2; }
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas:
+    'shirt1 shirt1';
+  gap: 100px;
+  padding: 10px;
+  justify-content: center;
+}
+
+#footer {
+    background-color: #264976;
+    margin-left: -5px;
+    margin-right: -25px;
 }
