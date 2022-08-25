@@ -135,8 +135,6 @@ h4, h3 {
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
@@ -171,8 +169,26 @@ h4, h3 {
   justify-content: center;
 }
 
+#footerLogo { grid-area: footerLogo; }
+#network { grid-area: network; }
+#address { grid-area: address; }
+#sponsors { grid-area: sponsors; }
+#addr1 { grid-area: addr1; }
+#email { grid-area: email; }
+#information { grid-area: information; }
+#cont { grid-area: cont; }
+#social { grid-area: social; }
+
 #footer {
-    background-color: #264976;
-    margin-left: -5px;
-    margin-right: -25px;
+  display: grid;
+  grid-template-areas:
+    'footerLogo footerLogo network network network network'
+    'footerLogo footerLogo address address sponsors sponsors'
+    'footerLogo footerLogo addr1 addr1 sponsors sponsors'
+    'footerLogo footerLogo email email sponsors sponsors'
+    'footerLogo footerLogo information information sponsors sponsors'
+    'footerLogo footerLogo cont cont social social';
+  gap: 10px;
+  background-color: #264976;
+  padding: 10px;
 }
