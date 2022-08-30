@@ -105,6 +105,8 @@ h4, h3 {
     color: #264976;
     width: fit-content;
     padding: 8px;
+    margin-left: 600px;
+    margin-bottom: 20px;
 }
 
 #shop {
@@ -152,8 +154,7 @@ h4, h3 {
 }
 
 #calendar {
-    justify-content: center;
-    align-items: center;
+    padding-left: 150px;
 }
 
 .shirt1 { grid-area: shirt1; }
@@ -169,15 +170,35 @@ h4, h3 {
   justify-content: center;
 }
 
+#loop {
+    padding-top: 20px;
+    padding-left: 300px;
+}
+
 #footerLogo { grid-area: footerLogo; }
-#network { grid-area: network; }
+#network { 
+    grid-area: network; 
+    padding-left: 450px;
+}
 #address { grid-area: address; }
 #sponsors { grid-area: sponsors; }
-#addr1 { grid-area: addr1; }
+#addr1 { 
+    grid-area: addr1; 
+    margin-top: -5px;
+}
 #email { grid-area: email; }
-#information { grid-area: information; }
-#cont { grid-area: cont; }
-#social { grid-area: social; }
+#information { 
+    grid-area: information;
+    margin-top: -5px; 
+}
+#cont { 
+    grid-area: cont;
+    margin-top: -5px; 
+}
+#social { 
+    grid-area: social; 
+    padding-left: 200px;
+}
 
 #footer {
   display: grid;
@@ -188,7 +209,10 @@ h4, h3 {
     'footerLogo footerLogo email email sponsors sponsors'
     'footerLogo footerLogo information information sponsors sponsors'
     'footerLogo footerLogo cont cont social social';
-  gap: 10px;
   background-color: #264976;
-  padding: 10px;
+}
+
+#footer h4 {
+    font-size: 12px;
+    color: white;
 }
